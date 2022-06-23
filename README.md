@@ -1,0 +1,1 @@
+# ghc-GADTs-Functor-Bug
