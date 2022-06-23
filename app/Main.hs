@@ -7,6 +7,6 @@ data TestType r a where
 
 instance Functor (TestType r) where
   fmap f (A a) = A (f a)
-  fmap f (B noExist r) = B (f r)
+  fmap f (B r) = B (f r)
   
 main = print "hello!"
